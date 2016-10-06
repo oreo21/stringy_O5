@@ -38,7 +38,6 @@ int mystrcmp(char *str1, char *str2){
   return 0;
 }
 
-
 char *mystrchr(char *str, char c){
   while (*str){
     if (*str == c) return str;
@@ -109,5 +108,3 @@ int main(){
   chrTest(str9, 'l');
   chrTest(str10, 'l');
 }
-  
-  
