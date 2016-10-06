@@ -1,8 +1,8 @@
-strTest: myStr.c
-	gcc myStr.c -o strTest
+main: myStr.c
+	gcc myStr.c -o myStr
 
 clean:
 	rm *~
 
-run: strTest
-	./strTest
+run: myStr
+	./myStr
