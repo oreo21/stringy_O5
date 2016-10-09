@@ -4,9 +4,9 @@
 
 int mystrlen(char *str){
   int i = 0;
-  while (*str){ 
+  while (*str){
     i++;
-    str++; 
+    str++;
   }
   return i;
 }
@@ -44,7 +44,7 @@ char *mystrchr(char *str, char c){
     str++;
   }
   return NULL;
-}  
+}
 
 void lenTest(char *str){
   printf("length of [%s]: %d\n", str, mystrlen(str));
