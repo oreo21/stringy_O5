@@ -1,4 +1,4 @@
-main: myStr.c
+compile: myStr.c
 	gcc myStr.c -o myStr
 
 clean:
